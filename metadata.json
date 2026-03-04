@@ -1,0 +1,5 @@
+{
+  "name": "SchoolMood",
+  "description": "A mood tracking and monitoring application for students and school counselors to support emotional well-being.",
+  "requestFramePermissions": []
+}

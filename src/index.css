@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+}
+
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke: #f1f5f9;
+}
+
+.recharts-default-tooltip {
+  @apply !bg-white !border-slate-100 !rounded-xl !shadow-xl !p-3 !border;
+}
+
+.recharts-tooltip-label {
+  @apply !text-slate-400 !text-xs !font-bold !mb-1 !uppercase !tracking-wider;
+}
